@@ -9,7 +9,6 @@ def keygen():
 
     sk = a
     pk = pow(g,a,p)
-    #print(pk)
     return pk,sk
 
 def encrypt(pk,m):
